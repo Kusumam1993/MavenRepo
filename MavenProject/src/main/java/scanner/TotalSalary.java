@@ -6,7 +6,6 @@ public class TotalSalary extends SalaryCalculate
 	double total;
 	public void total()
 	{
-		//super.calculation();
 		total=basicPay+hra-pf-deduction+bonus;
 	}
 	public void salarySlip()
